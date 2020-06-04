@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container {
+    width: 80%;
+    max-width: 1110px;
+    margin: 0 auto;
+}
+.p-20 {
+    padding: 20px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.strong {
+    font-weight: 800;
+}
+
+/* Header */
+.header-bg {
+    background-color: #000;
+}
+
+.header-text {
+    text-align: center;
+    color: #fff;
+}
+
+/* Movies */
+
+.movies {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.movie {
+    background-color: #000;
+    color: #fff;
+}
+
+.movie-item {
+    list-style: none;
+}
